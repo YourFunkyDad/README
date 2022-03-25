@@ -12,29 +12,34 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'description',
+        message: 'Provide a brief description:',
         validate: (value)=>{if (value){return true} else {return 'Error: Must not be left blank.'}}
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'install',
+        message: 'Provide instructions on installation:',
         validate: (value)=>{if (value){return true} else {return 'Error: Must not be left blank.'}}
     },
     {
         type: 'input',
-        name: 'email',
-        message: 'Enter your email address.',
+        name: 'use',
+        message: 'Briefly describe the usage:',
         validate: (value)=>{if (value){return true} else {return 'Error: Must not be left blank.'}}
     },
     {
         type: 'input',
-        name: 'github',
-        message: 'Enter your GitHub username.',
+        name: 'credits',
+        message: 'Other contributors:',
         validate: (value)=>{if (value){return true} else {return 'Error: Must not be left blank.'}}
     },
-    
+    {
+        type: 'input',
+        name: 'test',
+        message: 'How do you run the app?',
+        validate: (value)=>{if (value){return true} else {return 'Error: Must not be left blank.'}}
+    },
     {
         type: 'checkbox',
         name: 'license',
@@ -43,8 +48,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributors',
-        message: 'Who all has contributed to this project?',
+        name: 'github',
+        message: 'Enter your GitHub username.',
+        validate: (value)=>{if (value){return true} else {return 'Error: Must not be left blank.'}}
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address.',
         validate: (value)=>{if (value){return true} else {return 'Error: Must not be left blank.'}}
     },
     
