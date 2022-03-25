@@ -54,23 +54,19 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-        if (err) {
-            return console.log('Uh Oh');
-        }
-    })
-}
+        if (err) 
+            throw (err);
+            console.log('Uh Oh!')
+    });
+};
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer
-        .prompt(questions)
-        .then((response) => {
-            writeToFile(response.title, response);
-        })
-        .catch((error) => {
-            console.log(error);
-        })
-}
+    inquirer.prompt(questions)
+        .then(function(userInput) {
+            writeToFile("README.md", generateMarkdown(userInput));
+        });
+};
 
 // Function call to initialize app
 init();
