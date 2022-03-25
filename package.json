@@ -9,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^8.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourFunkyDad/README.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/YourFunkyDad/README/issues"
+  },
+  "homepage": "https://github.com/YourFunkyDad/README#readme"
 }
