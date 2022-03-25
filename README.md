@@ -1,25 +1,12 @@
-# README
+## User Story
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
 
-  # Description of App
-  Doing some homework.
+## Instructions
+Install inquirer: 'node install inquirer'
 
-  # How to Install
-  npm i inquirer, npm run seed
+Run Generator: 'node index.js'
 
-  # What is the Usage?
-  To dynamically create a README.md
-
-  # Other Contributors
-  undefined
-
-  # How to Start App
-  'node index.js'
-
-  # Licensing
-  MIT
-
-  # GitHub Link: (https://github.com/YourFunkyDad)
-  
-  # Email: AllredJ@protonmail.com
-  
-
+## GitHub Repository
+https://github.com/YourFunkyDad/README
