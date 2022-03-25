@@ -40,7 +40,7 @@ const questions = [
         name: 'license',
         message: 'Choose a license for your project:',
         choices: ['MIT', 'GPL', 'Apache', 'GNU General Public', 'Mozilla-Public', 'None']
-    }
+    },
     {
         type: 'input',
         name: 'contributors',
@@ -52,10 +52,25 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            return console.log('Uh Oh');
+        }
+    })
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((response) => {
+            writeToFile(response.title, response);
+        })
+        .catch((error) => {
+            console.log(error);
+        })
+}
 
 // Function call to initialize app
 init();
