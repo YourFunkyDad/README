@@ -1,25 +1,22 @@
-# README
+## Introduction
+Welcome to my Professional README.md Generator! With this simple to use application, you can quickly create a short README bio. 
 
-  # Description of App
-  Doing some homework.
+## User Story
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
 
-  # How to Install
-  npm i inquirer, npm run seed
+## Instructions
+Install inquirer: 'node install inquirer'
 
-  # What is the Usage?
-  To dynamically create a README.md
+Install Node Packages: 'npm i'
 
-  # Other Contributors
-  undefined
+Run Generator: 'node index.js'
 
-  # How to Start App
-  'node index.js'
+Your README will be created dynamically in the file named CREATEME.md. 
 
-  # Licensing
-  MIT
+## Video Demonstration
+https://vimeo.com/693227108/c8bffa7064
 
-  # GitHub Link: (https://github.com/YourFunkyDad)
-  
-  # Email: AllredJ@protonmail.com
-  
-
+## GitHub Repository
+https://github.com/YourFunkyDad/README

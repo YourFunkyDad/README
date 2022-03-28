@@ -67,7 +67,7 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) 
             throw (err);
-            console.log('Uh Oh!')
+            console.log('CREATEME.md has successfully been generated!')
     });
 };
 
@@ -75,7 +75,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then(function(userInput) {
-            writeToFile("README.md", generateMarkdown(userInput));
+            writeToFile("CREATEME.md", generateMarkdown(userInput));
         });
 };
 
