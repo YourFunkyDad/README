@@ -16,7 +16,7 @@ Run Generator: 'node index.js'
 Your README will be created dynamically in the file named CREATEME.md. 
 
 ## Video Demonstration
-![GIF](https://vimeo.com/693227108/c8bffa7064)
+![Screenshot](https://vimeo.com/693227108/c8bffa7064)
 
 ## GitHub Repository
 https://github.com/YourFunkyDad/README
