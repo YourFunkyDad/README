@@ -1,25 +1,27 @@
-# Readme Generator
+# Professional Readme Generator
 
   # Description of App
-  Damn
+  To create a short bio.
 
   # How to Install
-  son
+  node install inquirer, npm i
 
   # What is the Usage?
-  where 
+  To dynamically create a README.md
 
   # Other Contributors
   undefined
 
   # How to Start App
-  at
+  node index.js
 
   # Licensing
-  MIT
+  Mozilla-Public
 
-  # GitHub Link: (https://github.com/yeah)
+  # GitHub Link: 
+  https://github.com/YourFunkyDad
   
-  # Email: buster
+  # Email: 
+  AllredJ@protonmail.com
   
 

@@ -32,9 +32,11 @@ function generateMarkdown(data) {
   # Licensing
   ${data.license}
 
-  # GitHub Link: (https://github.com/${data.github})
+  # GitHub Link: 
+  https://github.com/${data.github}
   
-  # Email: ${data.email}
+  # Email: 
+  ${data.email}
   
 
 `;
