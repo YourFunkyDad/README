@@ -1,25 +1,25 @@
-# README Generator
+# Readme Generator
 
   # Description of App
-  When the application is ran, users will be prompted with a series of questions that will dynamically create a README.md.
+  Damn
 
   # How to Install
-  'node install inquirer'
+  son
 
   # What is the Usage?
-  To create a professional README.md
+  where 
 
   # Other Contributors
   undefined
 
   # How to Start App
-  'node index.js'
+  at
 
   # Licensing
-  Mozilla-Public
+  MIT
 
-  # GitHub Link: (https://github.com/YourFunkyDad)
+  # GitHub Link: (https://github.com/yeah)
   
-  # Email: AllredJ@protonmail.com
+  # Email: buster
   
 
